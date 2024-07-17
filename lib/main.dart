@@ -1,3 +1,4 @@
+import 'package:exchange_app/screens/dashboard_screen/dashboard_screen.dart';
 import 'package:exchange_app/screens/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       //  // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       //   useMaterial3: true,
       // ),
-      home: LoginScreen()
+      home: DashboardScreen()
     );
   }
 }
